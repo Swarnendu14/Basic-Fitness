@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background: linear-gradient(rgba(167, 229, 255, 0.6), rgba(0, 0, 0, 0.6)), url(../img/Yoga-1.jpg) no-repeat fixed;
+    
+}
+.tophead{
+    height:4rem;
+    background: rgb(97, 164, 120);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+.left{
+   margin-left: 3rem; 
+}
+.left img{
+    height:3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 2px black;
+}
+.mid{
+width: 25rem;
+color: white;
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+.mid a{
+    color: white;
+    font-weight: bold;
+text-decoration: none;
+}
+.mid a:hover{
+    text-decoration: underline 5px #00ff91;
+    transition: 0.9s;
+}
+.right{
+    margin-right: 3rem;
+}
+.right h3{
+    color: white;
+    font-size: 1.5rem;
+    font-family:system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow:0px 0px 8px black;
+    cursor: default;
+}
+
+
+
+.heading{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:4px solid rgba(255, 255, 255, 0.718) ;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+}
+.heading h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size:4rem;
+    font-weight: 1000;
+    color: antiquewhite;
+    border-radius: 50px;
+    text-shadow: 0px 0px 10px black;
+
+}
+
+
+
+.main{
+    height:35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.card{ 
+    box-shadow: 0px 0px 20px 5px rgb(195, 195, 195);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 35rem;
+    height: 20rem;
+    background-color:darkslategray;
+    
+}
+.card:hover{
+    scale: 1.1;
+    transition:0.4s;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{   
+    height:20rem;
+    border-radius: 10px 0px 0px 10px;
+}
+.describe{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 15rem;
+    width:inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.navbar{
+    padding-top: 1rem;
+    height:8rem;
+    background-color: rgb(0, 0, 0);
+}
+.navbar h3{
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.contact ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+}
+
+.contact li{
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact li:hover{
+    background-color: #00ff80;
+    transition: 0.3s;
+}
+
+.navbar p{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    border-top: 0.5px solid white;
+}
